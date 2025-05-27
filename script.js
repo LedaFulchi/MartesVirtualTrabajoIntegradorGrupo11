@@ -1,7 +1,5 @@
-// script.js (Este sería un archivo separado que enlazarías en tu HTML)
-
 document.addEventListener('DOMContentLoaded', function() {
-    // --- Funcionalidades de la página Avances ---
+   
 
     // Resaltar la fila de la tabla de colores al pasar el mouse
     const colorPaletteTable = document.querySelector('.color-palette-table tbody');
@@ -9,11 +7,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const rows = colorPaletteTable.querySelectorAll('tr');
         rows.forEach(row => {
             row.addEventListener('mouseover', function() {
-                this.style.backgroundColor = '#f5f5f5'; // Un gris claro al pasar el mouse
+                this.style.backgroundColor = '#f5f5f5'; 
                 this.style.transition = 'background-color 0.3s ease-in-out';
             });
             row.addEventListener('mouseout', function() {
-                this.style.backgroundColor = ''; // Volver al color original
+                this.style.backgroundColor = ''; 
             });
         });
     }
@@ -27,9 +25,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // --- Funcionalidades del header ---
+    // header
 
-    // Agregar un efecto sutil al pasar el mouse por los enlaces del header
+    // cambia apenas el color al pasar el mouse
     const headerLinks = document.querySelectorAll('header .nav-pills .nav-link');
     headerLinks.forEach(link => {
         link.addEventListener('mouseover', function() {
@@ -41,17 +39,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // --- Funcionalidades del footer ---
+    //  footer
 
-    // Agregar un efecto sutil al pasar el mouse por los enlaces del footer
     const footerLinks = document.querySelectorAll('footer .nav-item-footer .nav-link');
     footerLinks.forEach(link => {
         link.addEventListener('mouseover', function() {
-            this.style.color = '#0056b3'; // Un azul más oscuro al pasar el mouse
+            this.style.color = '#0056b3'; 
             this.style.transition = 'color 0.2s ease-in-out';
         });
         link.addEventListener('mouseout', function() {
-            this.style.color = '#555'; // Volver al color original
+            this.style.color = '#555'; 
         });
     });
 });
