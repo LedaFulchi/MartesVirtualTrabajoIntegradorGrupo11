@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-   
+    // página Avances 
 
-    // Resaltar la fila de la tabla de colores al pasar el mouse
+
     const colorPaletteTable = document.querySelector('.color-palette-table tbody');
     if (colorPaletteTable) {
         const rows = colorPaletteTable.querySelectorAll('tr');
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Mostrar un mensaje al hacer clic en un color de la paleta
+    
     const colorBoxes = document.querySelectorAll('.color-box');
     colorBoxes.forEach(box => {
         box.addEventListener('click', function() {
@@ -25,9 +25,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // header
+    // --- header ---
 
-    // cambia apenas el color al pasar el mouse
+  
     const headerLinks = document.querySelectorAll('header .nav-pills .nav-link');
     headerLinks.forEach(link => {
         link.addEventListener('mouseover', function() {
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    //  footer
+    // --- footer ---
 
     const footerLinks = document.querySelectorAll('footer .nav-item-footer .nav-link');
     footerLinks.forEach(link => {

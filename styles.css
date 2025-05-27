@@ -83,7 +83,7 @@ ul li ul {
     list-style-type: none; 
     padding-left: 0; 
     margin-left: 0; 
-    display: flex; /* flexbox para alinear los elementos en fila */
+    display: flex; 
     align-items: center;
 }
 
