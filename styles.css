@@ -43,8 +43,8 @@ h3{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 .table-bordered thead th {
-    background-color: rgb(28, 51, 63); /* Usa el mismo color de fondo que el header */
-    color: white; /* Asegúrate de que el texto sea legible sobre el fondo oscuro */
+    background-color: rgb(28, 51, 63); 
+    color: white; 
 }
 .color-palette-table th, .color-palette-table td {
     font-family: "Montserrat", cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -81,18 +81,18 @@ ul li ul {
 }
 .logos{
     list-style-type: none; 
-    padding-left: 0; /* Elimina el padding izquierdo por defecto de la lista */
-    margin-left: 0; /* Elimina el margen izquierdo por defecto de la lista */
-    display: flex; /* Activa flexbox para alinear los elementos en fila */
-    align-items: center; /* Opcional: alinea verticalmente los logos al centro */
+    padding-left: 0; 
+    margin-left: 0; 
+    display: flex; /* flexbox para alinear los elementos en fila */
+    align-items: center;
 }
 
 .logos li {
-    margin-right: 10px; /* Opcional: añade espacio entre los logos */
+    margin-right: 10px; 
 }
 
 .logos li:last-child {
-    margin-right: 0; /* Opcional: elimina el margen derecho del último logo */
+    margin-right: 0; 
 }
 
 
